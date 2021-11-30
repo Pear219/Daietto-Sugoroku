@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		419B31C027562F6900106C11 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 419B31BF27562F6900106C11 /* AppDelegate.swift */; };
+		419B31C227562F6900106C11 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 419B31C127562F6900106C11 /* SceneDelegate.swift */; };
+		419B31C427562F6900106C11 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 419B31C327562F6900106C11 /* ViewController.swift */; };
+		419B31C727562F6900106C11 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 419B31C527562F6900106C11 /* Main.storyboard */; };
+		419B31C927562F6B00106C11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 419B31C827562F6B00106C11 /* Assets.xcassets */; };
+		419B31CC27562F6B00106C11 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 419B31CA27562F6B00106C11 /* LaunchScreen.storyboard */; };
+		419B31D727562F6B00106C11 /* Daietto_SugorokuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 419B31D627562F6B00106C11 /* Daietto_SugorokuTests.swift */; };
+		419B31E227562F6B00106C11 /* Daietto_SugorokuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 419B31E127562F6B00106C11 /* Daietto_SugorokuUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		419B31D327562F6B00106C11 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 419B31B427562F6900106C11 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 419B31BB27562F6900106C11;
+			remoteInfo = "Daietto&Sugoroku";
+		};
+		419B31DE27562F6B00106C11 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 419B31B427562F6900106C11 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 419B31BB27562F6900106C11;
+			remoteInfo = "Daietto&Sugoroku";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		419B31BC27562F6900106C11 /* Daietto&Sugoroku.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Daietto&Sugoroku.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		419B31BF27562F6900106C11 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		419B31C127562F6900106C11 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		419B31C327562F6900106C11 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		419B31C627562F6900106C11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		419B31C827562F6B00106C11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		419B31CB27562F6B00106C11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		419B31CD27562F6B00106C11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		419B31D227562F6B00106C11 /* Daietto&SugorokuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Daietto&SugorokuTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		419B31D627562F6B00106C11 /* Daietto_SugorokuTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Daietto_SugorokuTests.swift; sourceTree = "<group>"; };
+		419B31D827562F6B00106C11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		419B31DD27562F6B00106C11 /* Daietto&SugorokuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Daietto&SugorokuUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		419B31E127562F6B00106C11 /* Daietto_SugorokuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Daietto_SugorokuUITests.swift; sourceTree = "<group>"; };
+		419B31E327562F6B00106C11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		419B31B927562F6900106C11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		419B31CF27562F6B00106C11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		419B31DA27562F6B00106C11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		419B31B327562F6900106C11 = {
+			isa = PBXGroup;
+			children = (
+				419B31BE27562F6900106C11 /* Daietto&Sugoroku */,
+				419B31D527562F6B00106C11 /* Daietto&SugorokuTests */,
+				419B31E027562F6B00106C11 /* Daietto&SugorokuUITests */,
+				419B31BD27562F6900106C11 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		419B31BD27562F6900106C11 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				419B31BC27562F6900106C11 /* Daietto&Sugoroku.app */,
+				419B31D227562F6B00106C11 /* Daietto&SugorokuTests.xctest */,
+				419B31DD27562F6B00106C11 /* Daietto&SugorokuUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		419B31BE27562F6900106C11 /* Daietto&Sugoroku */ = {
+			isa = PBXGroup;
+			children = (
+				419B31BF27562F6900106C11 /* AppDelegate.swift */,
+				419B31C127562F6900106C11 /* SceneDelegate.swift */,
+				419B31C327562F6900106C11 /* ViewController.swift */,
+				419B31C527562F6900106C11 /* Main.storyboard */,
+				419B31C827562F6B00106C11 /* Assets.xcassets */,
+				419B31CA27562F6B00106C11 /* LaunchScreen.storyboard */,
+				419B31CD27562F6B00106C11 /* Info.plist */,
+			);
+			path = "Daietto&Sugoroku";
+			sourceTree = "<group>";
+		};
+		419B31D527562F6B00106C11 /* Daietto&SugorokuTests */ = {
+			isa = PBXGroup;
+			children = (
+				419B31D627562F6B00106C11 /* Daietto_SugorokuTests.swift */,
+				419B31D827562F6B00106C11 /* Info.plist */,
+			);
+			path = "Daietto&SugorokuTests";
+			sourceTree = "<group>";
+		};
+		419B31E027562F6B00106C11 /* Daietto&SugorokuUITests */ = {
+			isa = PBXGroup;
+			children = (
+				419B31E127562F6B00106C11 /* Daietto_SugorokuUITests.swift */,
+				419B31E327562F6B00106C11 /* Info.plist */,
+			);
+			path = "Daietto&SugorokuUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		419B31BB27562F6900106C11 /* Daietto&Sugoroku */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 419B31E627562F6B00106C11 /* Build configuration list for PBXNativeTarget "Daietto&Sugoroku" */;
+			buildPhases = (
+				419B31B827562F6900106C11 /* Sources */,
+				419B31B927562F6900106C11 /* Frameworks */,
+				419B31BA27562F6900106C11 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Daietto&Sugoroku";
+			productName = "Daietto&Sugoroku";
+			productReference = 419B31BC27562F6900106C11 /* Daietto&Sugoroku.app */;
+			productType = "com.apple.product-type.application";
+		};
+		419B31D127562F6B00106C11 /* Daietto&SugorokuTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 419B31E927562F6B00106C11 /* Build configuration list for PBXNativeTarget "Daietto&SugorokuTests" */;
+			buildPhases = (
+				419B31CE27562F6B00106C11 /* Sources */,
+				419B31CF27562F6B00106C11 /* Frameworks */,
+				419B31D027562F6B00106C11 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				419B31D427562F6B00106C11 /* PBXTargetDependency */,
+			);
+			name = "Daietto&SugorokuTests";
+			productName = "Daietto&SugorokuTests";
+			productReference = 419B31D227562F6B00106C11 /* Daietto&SugorokuTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		419B31DC27562F6B00106C11 /* Daietto&SugorokuUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 419B31EC27562F6B00106C11 /* Build configuration list for PBXNativeTarget "Daietto&SugorokuUITests" */;
+			buildPhases = (
+				419B31D927562F6B00106C11 /* Sources */,
+				419B31DA27562F6B00106C11 /* Frameworks */,
+				419B31DB27562F6B00106C11 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				419B31DF27562F6B00106C11 /* PBXTargetDependency */,
+			);
+			name = "Daietto&SugorokuUITests";
+			productName = "Daietto&SugorokuUITests";
+			productReference = 419B31DD27562F6B00106C11 /* Daietto&SugorokuUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		419B31B427562F6900106C11 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					419B31BB27562F6900106C11 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					419B31D127562F6B00106C11 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 419B31BB27562F6900106C11;
+					};
+					419B31DC27562F6B00106C11 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 419B31BB27562F6900106C11;
+					};
+				};
+			};
+			buildConfigurationList = 419B31B727562F6900106C11 /* Build configuration list for PBXProject "Daietto&Sugoroku" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 419B31B327562F6900106C11;
+			productRefGroup = 419B31BD27562F6900106C11 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				419B31BB27562F6900106C11 /* Daietto&Sugoroku */,
+				419B31D127562F6B00106C11 /* Daietto&SugorokuTests */,
+				419B31DC27562F6B00106C11 /* Daietto&SugorokuUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		419B31BA27562F6900106C11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				419B31CC27562F6B00106C11 /* LaunchScreen.storyboard in Resources */,
+				419B31C927562F6B00106C11 /* Assets.xcassets in Resources */,
+				419B31C727562F6900106C11 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		419B31D027562F6B00106C11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		419B31DB27562F6B00106C11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		419B31B827562F6900106C11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				419B31C427562F6900106C11 /* ViewController.swift in Sources */,
+				419B31C027562F6900106C11 /* AppDelegate.swift in Sources */,
+				419B31C227562F6900106C11 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		419B31CE27562F6B00106C11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				419B31D727562F6B00106C11 /* Daietto_SugorokuTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		419B31D927562F6B00106C11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				419B31E227562F6B00106C11 /* Daietto_SugorokuUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		419B31D427562F6B00106C11 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 419B31BB27562F6900106C11 /* Daietto&Sugoroku */;
+			targetProxy = 419B31D327562F6B00106C11 /* PBXContainerItemProxy */;
+		};
+		419B31DF27562F6B00106C11 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 419B31BB27562F6900106C11 /* Daietto&Sugoroku */;
+			targetProxy = 419B31DE27562F6B00106C11 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		419B31C527562F6900106C11 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				419B31C627562F6900106C11 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		419B31CA27562F6B00106C11 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				419B31CB27562F6B00106C11 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		419B31E427562F6B00106C11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		419B31E527562F6B00106C11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		419B31E727562F6B00106C11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Daietto&Sugoroku/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.litech.Daietto-Sugoroku";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		419B31E827562F6B00106C11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Daietto&Sugoroku/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.litech.Daietto-Sugoroku";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		419B31EA27562F6B00106C11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Daietto&SugorokuTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.litech.Daietto-SugorokuTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Daietto&Sugoroku.app/Daietto&Sugoroku";
+			};
+			name = Debug;
+		};
+		419B31EB27562F6B00106C11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Daietto&SugorokuTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.litech.Daietto-SugorokuTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Daietto&Sugoroku.app/Daietto&Sugoroku";
+			};
+			name = Release;
+		};
+		419B31ED27562F6B00106C11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Daietto&SugorokuUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.litech.Daietto-SugorokuUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Daietto&Sugoroku";
+			};
+			name = Debug;
+		};
+		419B31EE27562F6B00106C11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Daietto&SugorokuUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.litech.Daietto-SugorokuUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Daietto&Sugoroku";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		419B31B727562F6900106C11 /* Build configuration list for PBXProject "Daietto&Sugoroku" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				419B31E427562F6B00106C11 /* Debug */,
+				419B31E527562F6B00106C11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		419B31E627562F6B00106C11 /* Build configuration list for PBXNativeTarget "Daietto&Sugoroku" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				419B31E727562F6B00106C11 /* Debug */,
+				419B31E827562F6B00106C11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		419B31E927562F6B00106C11 /* Build configuration list for PBXNativeTarget "Daietto&SugorokuTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				419B31EA27562F6B00106C11 /* Debug */,
+				419B31EB27562F6B00106C11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		419B31EC27562F6B00106C11 /* Build configuration list for PBXNativeTarget "Daietto&SugorokuUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				419B31ED27562F6B00106C11 /* Debug */,
+				419B31EE27562F6B00106C11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 419B31B427562F6900106C11 /* Project object */;
+}
